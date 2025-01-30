@@ -1,4 +1,5 @@
 import catinho from '/cat.gif'
+import darude from '/catspin.mp3'
 import './App.css'
 
 import { useRef } from "react";
@@ -19,7 +20,7 @@ function App() {
 
             {/* Audio element (no autoplay) */}
             <audio ref={audioRef} loop>
-                <source src="/catspin.mp3" type="audio/mp3"/>
+                <source src={darude} type="audio/mp3"/>
                 Your browser does not support the audio element.
             </audio>
         </div>
