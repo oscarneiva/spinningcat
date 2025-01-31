@@ -1,5 +1,5 @@
-import catinho from '/cat.gif'
-import darude from '/catspin.mp3'
+import catinho from './assets/cat.gif'
+import darude from './assets/catspin.mp3'
 import './App.css'
 
 import { useRef } from "react";
